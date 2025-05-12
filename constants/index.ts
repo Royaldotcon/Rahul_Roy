@@ -186,6 +186,7 @@ export const OTHER_SKILL = [
   },
 ] as const;
 
+
 export const PROJECTS = [
   {
     title: "Aitihya: E-Commerce Website",
@@ -201,8 +202,6 @@ export const PROJECTS = [
     image: "/projects/project-2.png",
     link: "https://texavision.in",
   },
-] as const;
-export const PROJECTS = [
   {
     title: "Nextjs Portfolio Website",
     description:
