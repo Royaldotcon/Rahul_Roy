@@ -3,6 +3,19 @@ import type { Metadata } from "next";
 export const siteConfig: Metadata = {
   title: "Rahul Roy | Designer & Developer ",
   description: "Welcome to my full stack Next.js 14 portfolio.",
+  openGraph: {
+    title: "Rahul Roy | Designer & Developer",
+    description: "Welcome to my full stack Next.js 14 portfolio.",
+    url: "https://rahul-royal.vercel.app", // or your custom domain
+    images: [
+      {
+        url: "/portfolio-3.png", // or full URL like https://yourdomain.com/og-image.png
+        width: 1200,
+        height: 630,
+        alt: "Rahul Roy Portfolio Preview",
+      },
+    ],
+  },
   keywords: [
     "reactjs",
     "nextjs",
