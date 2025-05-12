@@ -5,7 +5,7 @@ export const siteConfig: Metadata = {
   description: "Welcome to my full stack Next.js 14 portfolio.",
   images: [
       {
-        url: "/pic.jpg", // Replace with the actual path to your image
+        url: "/project-3.png", // Replace with the actual path to your image
         width: 1200,
         height: 630,
         alt: "Rahul Roy Portfolio Preview",
