@@ -20,6 +20,7 @@
   -webkit-text-fill-color: transparent;
 }
 .Welcome-box {
+  background-color: #00000070;
   isolation: isolate;
   overflow: hidden;
   align-items: center;
