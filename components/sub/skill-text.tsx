@@ -18,7 +18,7 @@ export const SkillText = () => {
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px]">
-         Delivering exceptional design and robust web solutions with Next.js 14.
+         Graphic Design and Robust web solutions with Next.js.
         </h1>
       </motion.div>
 
