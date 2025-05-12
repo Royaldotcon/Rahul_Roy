@@ -201,6 +201,8 @@ export const PROJECTS = [
     image: "/projects/project-2.png",
     link: "https://texavision.in",
   },
+
+export const PROJECTS = [
   {
     title: "Nextjs Portfolio Website",
     description:
