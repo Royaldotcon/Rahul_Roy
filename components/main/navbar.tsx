@@ -41,7 +41,7 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
+            {/* About Me */}
             <Link
               href={LINKS.sourceCode}
               target="_blank"
