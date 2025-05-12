@@ -41,15 +41,7 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* About Me */}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-            >
-              About Me
-            </Link>
+            
           </div>
         </div>
 
