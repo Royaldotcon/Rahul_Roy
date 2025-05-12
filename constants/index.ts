@@ -170,7 +170,7 @@ export const FULLSTACK_SKILL = [
   },
   {
     skill_name: "Figma",
-    image: "c.png",
+    image: "C.png",
     width: 70,
     height: 70,
   },
