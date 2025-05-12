@@ -290,5 +290,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  source: "https://aitihya.co.in/rahul",
+  sourceCode: "https://aitihya.co.in/rahul",
 };
