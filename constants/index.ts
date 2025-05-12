@@ -208,6 +208,13 @@ export const PROJECTS = [
     image: "/projects/project-3.png",
     link: "#",
   },
+  {
+    title: "HatHat Company",
+    description:
+      'HathatCompany is Rahul Roy’s debut website, built entirely with HTML and CSS—without the use of any upper-level programming languages. It reflects a clean, purposeful design rooted in core web development principles.',
+    image: "/projects/project-4.png",
+    link: "https://hathatcompany.wuaze.com",
+  },
 ] as const;
 
 export const FOOTER_DATA = [
