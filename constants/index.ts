@@ -287,6 +287,10 @@ export const NAV_LINKS = [
     title: "Projects",
     link: "#projects",
   },
+  {
+    title: "HatHat Co.",
+    link: "https://hathatcompany.wuaze.com",
+  },
 ] as const;
 
 export const LINKS = {
