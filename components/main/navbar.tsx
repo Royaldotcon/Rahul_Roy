@@ -98,7 +98,7 @@ export const Navbar = () => {
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Source Code
+              About Me
             </Link>
           </div>
 
