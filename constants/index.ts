@@ -276,8 +276,8 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
-    link: "https://www.aitihya.co.in/rahul",
+    title: "Aitihya & Co.",
+    link: "https://www.aitihya.co.in",
   },
   {
     title: "Skills",
