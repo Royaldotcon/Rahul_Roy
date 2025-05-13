@@ -9,7 +9,7 @@ export const siteConfig: Metadata = {
     url: "https://rahul-royal.vercel.app", // or your custom domain
     images: [
       {
-        url: "https://aitihya.co.in/wp-content/uploads/2025/04/pic-2048x1365.jpg", // or full URL like https://yourdomain.com/og-image.png
+        url: "https://raw.githubusercontent.com/Royaldotcon/Rahul_Roy/refs/heads/main/public/project-3.png", // or full URL like https://yourdomain.com/og-image.png
         width: 1200,
         height: 630,
         alt: "Rahul Roy Portfolio Preview",
