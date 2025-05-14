@@ -1,3 +1,6 @@
+import { SparklesIcon } from "@heroicons/react/24/solid";
+import { motion } from "framer-motion";
+import Image from "next/image";
 export default function AboutPage() {
   return (
     <main className="p-8 text-white">
