@@ -65,7 +65,7 @@ export const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://aitihya.co.in/rahul"
+          href="/aboutme"
         >
           Learn more
         </motion.a>

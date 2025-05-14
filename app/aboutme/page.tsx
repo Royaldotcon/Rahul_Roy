@@ -6,6 +6,7 @@ export default function AboutPage() {
   return (
     <main className="p-8 text-white">
       {/* Title and Introduction Section */}
+      <br><br></br></br>
       <h1 className="text-3xl font-bold">About Me</h1>
      
 
@@ -38,7 +39,7 @@ export default function AboutPage() {
         I’m Rahul Roy – Founder, Technologist, Designer, and Cultural Entrepreneur
       </h1>
 
-      <p className="text-lg text-gray-700 mb-4">
+      <p className="text-lg text-gray-400 mb-4">
         My name is Rahul Roy, and I am a multidisciplinary professional with a mission to integrate creativity, technology, and cultural heritage into impactful, forward-thinking solutions. I currently serve as the{" "}
         <strong>Founder & CEO of Aitihya</strong>, an e-commerce platform dedicated to promoting Bengal’s traditional craftsmanship and empowering artisans across India.
       </p>

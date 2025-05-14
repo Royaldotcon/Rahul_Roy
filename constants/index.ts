@@ -284,6 +284,10 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
+    title: "About Me",
+    link: "/aboutme",
+  },
+  {
     title: "Aitihya & Co.",
     link: "https://www.aitihya.co.in",
   },
