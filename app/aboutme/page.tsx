@@ -6,7 +6,7 @@ export default function AboutPage() {
     <main className="p-8 text-white">
       <h1 className="text-3xl font-bold">About Me</h1>
       <p className="mt-4">This is the About page of my space-themed portfolio.</p>
-      <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]">
+      <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]">
          <img
   src="/pic.jpg"
   alt="Rahul Roy"
