@@ -37,7 +37,7 @@ const Projects = () => {
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
  <img
-    src="graphicS/innova.png"
+    src="graphics/innova.png"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />

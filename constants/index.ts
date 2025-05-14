@@ -288,6 +288,10 @@ export const NAV_LINKS = [
     link: "/aboutme",
   },
   {
+    title: "Works",
+    link: "/works",
+  },
+  {
     title: "Aitihya & Co.",
     link: "https://www.aitihya.co.in",
   },
