@@ -13,7 +13,7 @@
     "email": "rr6216009@gmail.com",
     "url": "https://aitihya.co.in/rahul"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Welcome to my full stack Next.js 14 Portfolio.",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -48,21 +48,18 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/Royaldotcon/Rahul_Roy"
   },
   "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Royaldotcon/Rahul_Roy/issues",
+    "email": "rr6216009@gmail.com"
   },
   "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
+   
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.aitihya.co.in/rahul"
     }
   ],
   "dependencies": {
