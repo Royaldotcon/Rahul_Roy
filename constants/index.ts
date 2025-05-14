@@ -293,16 +293,13 @@ export const NAV_LINKS = [
   },
   {
     title: "Skills",
-    link: "#skills",
+    link: "https://rahul-royal.vercel.app/#skills",
   },
   {
     title: "Projects",
-    link: "#projects",
+    link: "https://rahul-royal.vercel.app/#projects",
   },
-  {
-    title: "HatHat Co.",
-    link: "https://hathatcompany.wuaze.com",
-  },
+  
 ] as const;
 
 export const LINKS = {
