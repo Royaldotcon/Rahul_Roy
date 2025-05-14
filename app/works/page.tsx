@@ -26,13 +26,9 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-5 px-3 max-w-6xl mx-auto">
  
-  <img
-    src="https://www.texavision.in/_next/image?url=%2Fdj.png&w=1080&q=75"
-    alt="Rahul Roy"
-    className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
-  />
+  
 <img
-    src="graphics/THINKFAST.png"
+    src="graphics/thinkfast.png"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   /><img
@@ -41,12 +37,16 @@ const Projects = () => {
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
  <img
-    src="/graphicS/innova.png"
+    src="graphicS/innova.png"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
  <img
     src="/graphics/unscripted.png"
+    alt="Rahul Roy"
+    className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
+  /><img
+    src="https://www.texavision.in/_next/image?url=%2Fdj.png&w=1080&q=75"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   /> <img
@@ -75,18 +75,16 @@ const Projects = () => {
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
-   
-
   </div><br />
 {/* Landscape Images */}
 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-3 max-w-6xl mx-auto">
   <img
-    src="/graphics/textrivia.png"
+    src="/graphics/TEXTRIVIA.png"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
 <img
-    src="/graphics/rangbahar.png"
+    src="/graphics/RANGBAHAR.png"
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   /><img
@@ -95,6 +93,7 @@ const Projects = () => {
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
   </div>
+
 
     </section>
   );
