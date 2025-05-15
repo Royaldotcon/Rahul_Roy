@@ -240,7 +240,7 @@ className="flex gap-4 mt-6 text-2xl text-gray-300">
 </motion.div>
 <motion.div
 variants={slideInFromLeft(1)}
-className="flex gap-4 mt-6 text-2xl text-gray-300">
+className="flex gap-4 mt-6 text-[20px] text-gray-300">
   <Link href="/" target="_blank">
     <span className="flex items-center gap-2 text-[20px]">
       <FaAddressCard />
