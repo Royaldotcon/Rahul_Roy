@@ -1,3 +1,5 @@
+// lib/blogsData.ts
+export const blogs = [
   {
     id: '1',
     title: 'How Aitihya Was Born',
