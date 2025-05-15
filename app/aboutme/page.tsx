@@ -11,17 +11,18 @@ import { slideInFromTop } from "@/lib/motion";
 
 export default function AboutPage() {
   return (
-    <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <title>Rahul Roy – About</title>
-      </Head>
-      <body>
     <motion.div
       initial="hidden"
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
+      <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <title>Rahul Roy – About</title>
+      </Head>
+      <body>
+    
     <main className="p-8 text-white">
       {/* Title and Introduction Section */}
       <br /><br />
@@ -197,8 +198,8 @@ export default function AboutPage() {
         I am Rahul Roy. I build with purpose, design with passion, and lead with vision—committed to transforming ideas into lasting impact.
       </motion.p>
     </main>
-    </motion.div>
+    
     </body>
-    </html>
+    </html></motion.div>
   );
 }
