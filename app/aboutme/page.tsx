@@ -4,6 +4,16 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Head from "next/head";
+import { FaYoutube, FaFacebook, FaWhatsapp, FaMobile, FaMailBulk, FaWeebly, FaSitemap, FaAddressCard } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import {
+  RxDiscordLogo,
+  RxGithubLogo,
+  RxInstagramLogo,
+  RxTwitterLogo,
+  RxLinkedinLogo,
+} from "react-icons/rx";
+
 
 
 
@@ -195,12 +205,83 @@ export default function AboutPage() {
       </motion.p>
 
       {/* Signature Section */}
-      <motion.p
+      
+     <motion.p
       variants={slideInFromTop}
        className="text-lg text-left text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-semibold">
         I am Rahul Roy. I build with purpose, design with passion, and lead with vision—committed to transforming ideas into lasting impact.
-      </motion.p>
+  </motion.p>
+        <br />
+  <motion.h2
+     id="contact"
+      variants={slideInFromTop}
+       className="text-4xl font-semibold text-cyan-400 mb-4">
+        Contact Me
+      </motion.h2>
+    <motion.div
+    variants={slideInFromLeft(1)}
+    className="flex gap-4 mt-6 text-2xl text-gray-300">
+  <Link href="tel:+918250084850" target="_blank">
+    <span className="flex items-center gap-2 text-[20px]">
+      <FaMobile />
+      +91 8250084850
+    </span>
+  </Link>
+</motion.div>
+<motion.div
+variants={slideInFromLeft(1)}
+className="flex gap-4 mt-6 text-2xl text-gray-300">
+  <Link href="mailto:rr6216009@gmail.com" target="_blank">
+    <span className="flex items-center gap-2 text-[20px]">
+      <FaMailBulk />
+      rr6216009@gmail.com
+    </span>
+  </Link>
+</motion.div>
+<motion.div
+variants={slideInFromLeft(1)}
+className="flex gap-4 mt-6 text-2xl text-gray-300">
+  <Link href="/" target="_blank">
+    <span className="flex items-center gap-2 text-[20px]">
+      <FaAddressCard />
+      Srikrishnapur, Dasghara, Dhaniakhali,
+    </span>  Hooghly, West Bengal - 712402<br />India
+  </Link>
+</motion.div>
+<motion.div
+variants={slideInFromLeft(1)}
+className="flex gap-4 mt-6 text-2xl text-gray-300">
+  <Link href="https://facebook.com/roy.rahul1818" target="_blank">
+   
+      <FaFacebook />
      
+  </Link>
+<Link href="https://wa.me/918250084850" target="_blank">
+   
+      <FaWhatsapp />
+     
+  </Link>
+  <Link href="https://instagram.com/roy.rahul._" target="_blank">
+   
+      <FaInstagram />
+     
+  </Link>
+  <Link href="https://github.com/royaldotcon" target="_blank">
+   
+      <FaGithub />
+     
+  </Link>
+  <Link href="https://www.linkedin.com/in/rahul-roy-48582b304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+   
+      <FaLinkedin />
+     
+  </Link>
+  <Link href="https://www.aitihya.co.in/">
+   
+      <FaFirefoxBrowser />
+     
+  </Link>
+  </motion.div>
     </main>
     
     

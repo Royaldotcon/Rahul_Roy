@@ -273,9 +273,9 @@ export const FOOTER_DATA = [
         link: "mailto:rr6216009@gmail.com",
       },
       {
-        name: "Dasghara, hooghly, West Bengal",
+        name: "Address",
         icon: FaAddressCard,
-        link: "https://aitihya.co.in/rahul",
+        link: "/aboutme/#contact",
       },
       
     ],
