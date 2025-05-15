@@ -7,6 +7,7 @@ import Head from "next/head";
 
 
 
+
 import {  slideInFromLeft,
   slideInFromRight,
   slideInFromTop } from "@/lib/motion";
@@ -16,7 +17,7 @@ export default function AboutPage() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-0 mt-15 w-full z-[20]"
     >
      
       <Head>
@@ -199,6 +200,7 @@ export default function AboutPage() {
        className="text-lg text-left text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-semibold">
         I am Rahul Roy. I build with purpose, design with passion, and lead with vision—committed to transforming ideas into lasting impact.
       </motion.p>
+     
     </main>
     
     

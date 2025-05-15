@@ -1,8 +1,21 @@
+"use client";
+
+
 import { ProjectCard } from "@//components/sub/project-card";
 import { PROJECTS } from "@//constants";
+import { motion } from "framer-motion";
+
+import {  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop } from "@/lib/motion";
 
 const Projects = () => {
   return (
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      className="flex flex-row items-center justify-center px-0 mt-15 w-full z-[20]"
+    >
     <section
       id="projects"
       className="flex flex-col items-center justify-center py-20"
@@ -96,6 +109,7 @@ const Projects = () => {
 
 
     </section>
+    </motion.div>
   );
 };
 
