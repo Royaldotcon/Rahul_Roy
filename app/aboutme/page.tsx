@@ -7,7 +7,9 @@ import Head from "next/head";
 
 
 
-import { slideInFromTop } from "@/lib/motion";
+import {  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop } from "@/lib/motion";
 
 export default function AboutPage() {
   return (
@@ -41,7 +43,7 @@ export default function AboutPage() {
 
       {/* Profile Information */}
       <motion.div
-      variants={slideInFromTop}
+      variants={slideInFromLeft(0.5)}
        className="flex flex-col gap-6 mt-6 text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-full w-full h-auto">
         <span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-5xl sm:text-4xl md:text-6xl lg:text-6xl">
@@ -55,33 +57,33 @@ export default function AboutPage() {
 
       {/* Professional Overview */}
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(0.8)}
        className="text-justify text-lg text-gray-400 my-5 max-w-[600px]">
         I&apos;m a Full Stack Software Engineer & UI/UX Designer blending code and creativity to build powerful, user-centric digital experiences.
       </motion.p>
 
       {/* Detailed Professional Profile */}
       <motion.h1
-      variants={slideInFromTop}
+      variants={slideInFromTop(1)}
        className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-6">
         I’m Rahul Roy – Founder, Technologist, Designer, and Cultural Entrepreneur
       </motion.h1>
 
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1.2)}
        className="text-justify text-lg text-gray-400 mb-4">
         My name is Rahul Roy, and I am a multidisciplinary professional with a mission to integrate creativity, technology, and cultural heritage into impactful, forward-thinking solutions. I currently serve as the{" "}
         <strong>Founder & CEO of Aitihya</strong>, an e-commerce platform dedicated to promoting Bengal’s traditional craftsmanship and empowering artisans across India.
       </motion.p>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1.2)}
        className="text-justify text-lg text-gray-400 mb-6">
         With a robust background in <strong>software development</strong>, <strong>digital design</strong>, and <strong>entrepreneurship</strong>, I bridge the gap between functionality and artistic expression. My expertise spans across full-stack development, automation, brand building, and UI/UX design, all rooted in a vision of innovation and inclusivity.
       </motion.p>
 
       {/* Technical Skills Section */}
       <motion.h2
-      variants={slideInFromTop}
+      variants={slideInFromTop(1)}
        className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">
         Technical & Creative Skill Set
       </motion.h2>
