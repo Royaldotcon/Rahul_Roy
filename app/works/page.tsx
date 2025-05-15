@@ -14,16 +14,20 @@ const Projects = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-0 mt-15 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-0 mt-20 w-full z-[20]"
     >
     <section
       id="projects"
       className="flex flex-col items-center justify-center py-20"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <motion.h1
+      variants={slideInFromTop} 
+      className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Projects
-      </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      </motion.h1>
+      <motion.div
+      variants={slideInFromLeft(0.8)}  
+      className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.title}
@@ -33,11 +37,15 @@ const Projects = () => {
             link={project.link}
           />
         ))}
-      </div>
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      </motion.div>
+      <motion.h1
+      variants={slideInFromTop}  
+      className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Graphic Designs
-      </h1>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-5 px-3 max-w-6xl mx-auto">
+      </motion.h1>
+      <motion.div
+      variants={slideInFromLeft(1)}  
+      className="grid grid-cols-2 md:grid-cols-5 gap-5 px-3 max-w-6xl mx-auto">
  
   
 <img
@@ -88,9 +96,11 @@ const Projects = () => {
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
-  </div><br />
+  </motion.div><br />
 {/* Landscape Images */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-3 max-w-6xl mx-auto">
+<motion.div
+variants={slideInFromLeft(1)}  
+className="grid grid-cols-1 md:grid-cols-2 gap-5 px-3 max-w-6xl mx-auto">
   <img
     src="/graphics/TEXTRIVIA.png"
     alt="Rahul Roy"
@@ -105,7 +115,7 @@ const Projects = () => {
     alt="Rahul Roy"
     className="w-full h-auto object-cover border-4 border-transparent bg-gray-900 p-[2px]"
   />
-  </div>
+  </motion.div>
 
 
     </section>

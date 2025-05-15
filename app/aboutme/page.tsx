@@ -17,7 +17,7 @@ export default function AboutPage() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-0 mt-15 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-0 mt-20 w-full z-[20]"
     >
      
       <Head>
