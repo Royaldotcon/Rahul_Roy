@@ -4,8 +4,7 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Head from "next/head";
-import { FaYoutube, FaFacebook, FaWhatsapp, FaMobile, FaMailBulk, FaWeebly, FaSitemap, FaAddressCard } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaYoutube, FaFacebook, FaWhatsapp, FaMobile, FaMailBulk, FaWeebly, FaSitemap, FaAddressCard, FaInstagram, FaGithub, FaFirefoxBrowser, FaSearchengin } from "react-icons/fa";import { FaLinkedin } from "react-icons/fa6";
 import {
   RxDiscordLogo,
   RxGithubLogo,
