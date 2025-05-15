@@ -27,7 +27,7 @@ export default function AboutPage() {
     
     <main className="p-8 text-white">
       {/* Title and Introduction Section */}
-      <br /><br />
+     
      
      
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
 
       {/* Detailed Professional Profile */}
       <motion.h1
-      variants={slideInFromTop(1)}
+      variants={slideInFromTop}
        className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-6">
         I’m Rahul Roy – Founder, Technologist, Designer, and Cultural Entrepreneur
       </motion.h1>
