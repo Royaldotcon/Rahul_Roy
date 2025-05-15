@@ -16,12 +16,12 @@ export default function AboutPage() {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <html lang="en">
+     
       <Head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <title>Rahul Roy – About</title>
       </Head>
-      <body>
+     
     
     <main className="p-8 text-white">
       {/* Title and Introduction Section */}
@@ -199,7 +199,8 @@ export default function AboutPage() {
       </motion.p>
     </main>
     
-    </body>
-    </html></motion.div>
+    
+  </motion.div>
+
   );
 }
