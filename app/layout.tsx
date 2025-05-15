@@ -7,7 +7,7 @@ import { Navbar } from "@/components/main/navbar";
 import { StarsCanvas } from "@/components/main/star-background";
 import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
-
+import WhatsAppButton from "@/components/WhatsAppButton"; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,6 +29,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       >
         <StarsCanvas />
         <Navbar />
+        <WhatsAppButton />
         {children}
         <Footer />
       </body>
