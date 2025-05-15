@@ -83,7 +83,7 @@ export default function AboutPage() {
 
       {/* Technical Skills Section */}
       <motion.h2
-      variants={slideInFromTop(1)}
+      variants={slideInFromTop}
        className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">
         Technical & Creative Skill Set
       </motion.h2>
