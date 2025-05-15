@@ -203,16 +203,16 @@ export const PROJECTS = [
     link: "https://texavision.in",
   },
   {
-    title: "Nextjs Portfolio Website",
+    title: "Next.js Portfolio Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "#",
+      'Welcome to my digital space — a thoughtfully crafted portfolio built with Next.js, blending performance, aesthetic design, and functionality. This site serves as a creative showcase of my work in UI/UX design, full-stack web development, and visual storytelling. From interactive components to seamless navigation, every detail reflects my passion for building intuitive and engaging digital experiences. Whether you are a potential client, collaborator, or just exploring, I invite you to discover my journey through pixels and code.',
+    image: "/og.png",
+    link: "https://rahul-royal.vercel.app",
   },
   {
     title: "HatHat Company",
     description:
-      'HathatCompany is Rahul Roy’s debut website, built entirely with HTML and CSS—without the use of any upper-level programming languages. It reflects a clean, purposeful design rooted in core web development principles.',
+      'HathatCompany is my debut website, built entirely with HTML and CSS—without the use of any upper-level programming languages. It reflects a clean, purposeful design rooted in core web development principles.',
     image: "/projects/project-4.png",
     link: "https://hathatcompany.wuaze.com",
   },
@@ -292,8 +292,8 @@ export const NAV_LINKS = [
     link: "/works",
   },
   {
-    title: "Aitihya & Co.",
-    link: "https://www.aitihya.co.in",
+    title: "Blogs",
+    link: "/blogs",
   },
   {
     title: "Skills",
@@ -301,7 +301,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Projects",
-    link: "https://rahul-royal.vercel.app/#projects",
+    link: "https://rahul-royal.vercel.app/works/#projects",
   },
   
 ] as const;
