@@ -16,6 +16,11 @@ export const siteConfig: Metadata = {
       },
     ],
   },
+   icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   keywords: [
     "reactjs",
     "nextjs",
