@@ -70,13 +70,13 @@ export default function AboutPage() {
       </motion.h1>
 
       <motion.p
-      variants={slideInFromLeft(1.2)}
+      variants={slideInFromLeft(1)}
        className="text-justify text-lg text-gray-400 mb-4">
         My name is Rahul Roy, and I am a multidisciplinary professional with a mission to integrate creativity, technology, and cultural heritage into impactful, forward-thinking solutions. I currently serve as the{" "}
         <strong>Founder & CEO of Aitihya</strong>, an e-commerce platform dedicated to promoting Bengal’s traditional craftsmanship and empowering artisans across India.
       </motion.p>
       <motion.p
-      variants={slideInFromLeft(1.2)}
+      variants={slideInFromLeft(1)}
        className="text-justify text-lg text-gray-400 mb-6">
         With a robust background in <strong>software development</strong>, <strong>digital design</strong>, and <strong>entrepreneurship</strong>, I bridge the gap between functionality and artistic expression. My expertise spans across full-stack development, automation, brand building, and UI/UX design, all rooted in a vision of innovation and inclusivity.
       </motion.p>
@@ -88,12 +88,12 @@ export default function AboutPage() {
         Technical & Creative Skill Set
       </motion.h2>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-justify text-lg text-gray-400 mb-4">
         I work fluently across both front-end and back-end environments, with proficiency in:
       </motion.p>
       <motion.ul
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="list-disc pl-6 text-lg text-gray-400 text-justify mb-6">
         <li>Programming Languages: C, Python, JavaScript, PHP, SQL</li>
         <li>Frameworks & Libraries: React.js, Next.js, Node.js, Express.js</li>
@@ -112,11 +112,11 @@ export default function AboutPage() {
         What I Build
       </motion.h2>
       <motion.p
-      variants={slideInFromTop} className="text-lg text-gray-400 text-justify mb-4">
+      variants={slideInFromLeft(1)} className="text-lg text-gray-400 text-justify mb-4">
         My work is rooted in utility, creativity, and scalability. I have developed:
       </motion.p>
       <motion.ul
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1.2)}
        className="list-disc pl-6 text-lg text-gray-400 text-justify mb-6">
         <li>Automated platforms for users to generate personal portfolio pages</li>
         <li>Cloud-integrated file upload and management systems</li>
@@ -131,12 +131,12 @@ export default function AboutPage() {
         Aitihya – My Mission, My Legacy
       </motion.h2>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-lg text-gray-400 text-justify mb-4">
         Aitihya is more than a business—it is a cultural movement. Through this platform, I aim to preserve and promote India’s traditional arts, especially focusing on artisans without GST registration or digital visibility. Aitihya provides them with a professional marketplace, combining storytelling, virtual product previews, and ethical commerce.
       </motion.p>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-lg text-gray-400 text-justify mb-6">
         Our long-term vision is to become a national platform that not only drives sales but also tells the stories behind the products—keeping heritage alive in the modern world.
       </motion.p>
@@ -148,7 +148,7 @@ export default function AboutPage() {
         Other Ventures & Projects
       </motion.h2>
       <motion.ul
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="list-disc pl-6 text-lg text-gray-400 text-justify mb-6">
         <li>
           <strong>Hathat</strong> is my personal portfolio website, crafted entirely in raw HTML. It’s a representation of my minimalist design philosophy and technical fundamentals—a space where I showcase my digital works and experiments.
@@ -171,12 +171,12 @@ export default function AboutPage() {
         My Values and Vision
       </motion.h2>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-lg text-gray-400 text-justify mb-4">
         I believe in building with purpose. Inspired by the values of <strong>Mahatma Gandhi</strong>, I strive to lead with simplicity, truth, and service. Through ventures like <strong>Tech Mechanic</strong>, my independent tech repair service, and my day-to-day creative pursuits, I remain committed to solving real-world problems while staying connected to people and purpose.
       </motion.p>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-lg text-gray-400 text-justify mb-6">
         I am deeply passionate about storytelling, design, and technology. Whether it's launching a brand, coding a system, mentoring peers, or promoting grassroots artisans, I work to make every action meaningful.
       </motion.p>
@@ -188,7 +188,7 @@ export default function AboutPage() {
         Looking Ahead
       </motion.h2>
       <motion.p
-      variants={slideInFromTop}
+      variants={slideInFromLeft(1)}
        className="text-lg text-gray-400 text-justify mb-4">
         I envision a future where <strong>Aitihya becomes a globally recognized platform</strong> for Indian artisans, where my designs influence brands and experiences, and where my work uplifts communities and preserves culture. I aim to keep growing as a leader, technologist, and creator—constantly learning, evolving, and contributing.
       </motion.p>
