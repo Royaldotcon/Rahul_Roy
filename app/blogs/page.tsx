@@ -24,14 +24,16 @@ export default function BlogsPage() {
 
       <ul className="space-y-6">
         {blogs.map((blog) => (
-          <li key={blog.id} className="border p-4 rounded shadow">
-            <motion.Link
+          <motion.li
+          variants={slideInFromLeft(0.6)}
+          key={blog.id} className="border p-4 rounded shadow">
+            <Link
             variants={slideInFromLeft(0.7)} 
               href={`/blogs/${blog.id}`} 
               className="text-xl font-semibold text-gray-200 hover:underline"
             >
               {blog.title}
-            </motion.Link>
+            </Link>
             <motion.p
             variants={slideInFromLeft(0.9)}
             className="text-gray-300">
@@ -40,7 +42,7 @@ export default function BlogsPage() {
             <motion.p 
             variants={slideInFromLeft(1)}
             className="text-gray-400 text-justify mt-2">{blog.description}</motion.p>
-          </li>
+          </motion.li>
         ))}
       </ul>
     </main>
