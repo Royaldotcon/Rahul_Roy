@@ -1,5 +1,5 @@
 "use client";
-
+import TypingText from './TypingText';
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -47,13 +47,16 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-[600px] w-full h-auto"
         >
             <span className="flex flex-col">
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-5xl sm:text-4xl md:text-6xl lg:text-6xl">
-    Rahul Roy
-  </span>
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 text-5xl sm:text-4xl md:text-6xl lg:text-6xl">
+  <TypingText text="Rahul Roy"
+  speed={70}
+  delay={1000}
+  />
+</span>
   <img
     src="/hero-title.gif"
     alt="Web Developer & Graphic Designer"
-    className="w-[500px] h-auto mt-2"
+    className="w-[600px] relative -left-6 h-auto mt-2"
   />
 </span>
         </motion.div>
