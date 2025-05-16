@@ -3,7 +3,7 @@ import { blogs } from '@/lib/blogsData'
 
 export default function BlogsPage() {
   return (
-    <main className="max-w-3xl mx-auto p-20">
+    <main className="max-w-3xl mx-auto p-6">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl text-cyan-400 font-bold">All Blogs</h1>
         
@@ -21,7 +21,7 @@ export default function BlogsPage() {
             <p className="text-gray-300">
               <i>By <strong>{blog.author}</strong></i>
             </p>
-            <p className="text-gray-400 mt-2">{blog.description}</p>
+            <p className="text-gray-400 text-justify mt-2">{blog.description}</p>
           </li>
         ))}
       </ul>
