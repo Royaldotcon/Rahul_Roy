@@ -28,7 +28,6 @@ export default function BlogsPage() {
           variants={slideInFromLeft(0.6)}
           key={blog.id} className="border p-4 rounded shadow">
             <Link
-            variants={slideInFromLeft(0.7)} 
               href={`/blogs/${blog.id}`} 
               className="text-xl font-semibold text-gray-200 hover:underline"
             >
