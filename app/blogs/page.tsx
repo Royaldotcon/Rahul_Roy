@@ -3,7 +3,8 @@ import { blogs } from '@/lib/blogsData'
 
 export default function BlogsPage() {
   return (
-    <main className="max-w-3xl mx-auto p-6">
+    <main className="max-w-full mx-auto p-20">
+      <br />
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl text-cyan-400 font-bold">All Blogs</h1>
         

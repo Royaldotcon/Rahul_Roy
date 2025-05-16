@@ -18,7 +18,7 @@ const Projects = () => {
     >
     <section
       id="projects"
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-10"
     >
       <motion.h1
       variants={slideInFromTop} 
