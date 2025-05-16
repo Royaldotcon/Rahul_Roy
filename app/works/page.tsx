@@ -22,7 +22,7 @@ const Projects = () => {
     >
       <motion.h1
       variants={slideInFromTop} 
-      className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-5">
         Projects
       </motion.h1>
       <motion.div
