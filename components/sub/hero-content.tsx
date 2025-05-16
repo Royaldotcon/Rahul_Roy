@@ -56,7 +56,7 @@ export const HeroContent = () => {
   <img
     src="/hero-title.gif"
     alt="Web Developer & Graphic Designer"
-    className="w-[600px] relative -left-6 h-auto mt-2"
+    className="w-[600px] relative -left-4 h-auto mt-2"
   />
 </span>
         </motion.div>
