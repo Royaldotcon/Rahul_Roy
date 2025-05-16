@@ -6,12 +6,7 @@ export default function BlogsPage() {
     <main className="max-w-3xl mx-auto p-20">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl text-cyan-400 font-bold">All Blogs</h1>
-        <Link
-          href="/blogs/message"
-          className="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition"
-        >
-          + New Blog
-        </Link>
+        
       </div>
 
       <ul className="space-y-6">
