@@ -46,13 +46,16 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-[600px] w-full h-auto"
         >
-          <span>
-            {" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-5xl sm:text-4xl md:text-6xl lg:text-6xl">
-              Rahul Roy
-            </span>{" "}
-            <br></br>Web Developer & Graphic Designer
-          </span>
+            <span className="flex flex-col">
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-5xl sm:text-4xl md:text-6xl lg:text-6xl">
+    Rahul Roy
+  </span>
+  <img
+    src="/hero-title.gif"
+    alt="Web Developer & Graphic Designer"
+    className="w-[500px] h-auto mt-2"
+  />
+</span>
         </motion.div>
 
         <motion.p
