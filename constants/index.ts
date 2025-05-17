@@ -288,8 +288,8 @@ export const NAV_LINKS = [
     link: "/aboutme",
   },
   {
-    title: "Works",
-    link: "/works",
+    title: "Projects",
+    link: "https://rahul-royal.vercel.app/works",
   },
   {
     title: "Blogs",
@@ -299,10 +299,7 @@ export const NAV_LINKS = [
     title: "Skills",
     link: "https://rahul-royal.vercel.app/#skills",
   },
-  {
-    title: "Projects",
-    link: "https://rahul-royal.vercel.app/works/#projects",
-  },
+  
   
 ] as const;
 
