@@ -38,6 +38,7 @@ export const SkillDataProvider = ({
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
+      className="w-[7vw]"
     >
       <Image src={`/skills/${src}`} width={width} height={height} alt={name} />
     </motion.div>
