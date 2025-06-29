@@ -189,6 +189,13 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
+    title: "Bazaar: E-Commerce Website",
+    description:
+      'A robust and modern eCommerce platform, created with love using Next.js 14. Bazaar is a full-stack eCommerce application engineered for performance, scalability, and seamless user experience. Designed to adapt from a startup storefront to enterprise-grade operations.',
+    image: "/projects/project-5.png",
+    link: "https://bazaar-bengal.vercel.app",
+  },
+  {
     title: "Aitihya: E-Commerce Website",
     description:
       'Aitihya is my entrepreneurial venture — a cultural e-commerce platform designed to showcase Bengal’s heritage by empowering local artisans and selling their handcrafted products globally.',
