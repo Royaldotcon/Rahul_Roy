@@ -21,17 +21,7 @@ export const Projects = () => {
           />
         ))}
       </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        {PROJECTS2.map((project) => (
-          <ProjectCard
-            key={project.title}
-            src={project.image}
-            title={project.title}
-            description={project.description}
-            link={project.link}
-          />
-        ))}
-      </div>
+      
     </section>
   );
 };
