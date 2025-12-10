@@ -232,6 +232,51 @@ export const PROJECTS = [
   },
 ] as const;
 
+export const PROJECTS2 = [
+  {
+    title: "Ayaschya26 - Annual Technical Festival Website of GCETTS",
+    description:
+      'Ayaschya26 is a robust, performance-first digital experience crafted for students and gamers alike. Built with modern web primitives (HTML, CSS & JavaScript), the site is engineered for speed, accessibility and resilient delivery across devices — from low-end phones to desktop rigs. Its PWA-friendly, SEO-optimized, and designed for fast, snappy interactions during high-traffic event days.',
+    image: "/projects/project-6.png",
+    link: "https://ayaschya26.aitihya.co.in",
+  },
+  {
+    title: "Bazaar: E-Commerce Website",
+    description:
+      'A robust and modern eCommerce platform, created with love using Next.js 14. Bazaar is a full-stack eCommerce application engineered for performance, scalability, and seamless user experience. Designed to adapt from a startup storefront to enterprise-grade operations.',
+    image: "/projects/project-5.png",
+    link: "https://bazaar-bengal.vercel.app",
+  },
+  {
+    title: "Aitihya: E-Commerce Website",
+    description:
+      'Aitihya is my entrepreneurial venture — a cultural e-commerce platform designed to showcase Bengal’s heritage by empowering local artisans and selling their handcrafted products globally.',
+    image: "/projects/project-1.png",
+    link: "https://www.aitihya.co.in",
+  },
+  {
+    title: "Graphic Designing: Texavision 2K25",
+    description:
+      'As a Graphic Designer at Texavision 2025, I specialized in crafting innovative event branding and seamless UI/UX designs, utilizing tools like Adobe Creative Suite and Figma to ensure a cohesive visual narrative that enhanced user experience and amplified brand impact.',
+    image: "/projects/project-2.png",
+    link: "https://texavision.in",
+  },
+  {
+    title: "Next.js Portfolio Website",
+    description:
+      'Welcome to my digital space — a thoughtfully crafted portfolio built with Next.js, blending performance, aesthetic design, and functionality. This site serves as a creative showcase of my work in UI/UX design, full-stack web development, and visual storytelling. From interactive components to seamless navigation, every detail reflects my passion for building intuitive and engaging digital experiences. Whether you are a potential client, collaborator, or just exploring, I invite you to discover my journey through pixels and code.',
+    image: "/og.png",
+    link: "https://rahul-royal.vercel.app",
+  },
+  {
+    title: "HatHat Company",
+    description:
+      'HathatCompany is my debut website, built entirely with HTML and CSS—without the use of any upper-level programming languages. It reflects a clean, purposeful design rooted in core web development principles.',
+    image: "/projects/project-4.png",
+    link: "https://hathatcompany.wuaze.com",
+  },
+] as const;
+
 export const FOOTER_DATA = [
   {
     title: "Community",
