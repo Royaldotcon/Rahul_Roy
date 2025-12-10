@@ -1,5 +1,5 @@
 import { ProjectCard } from "@/components/sub/project-card";
-import { PROJECTS, PROJECTS2 } from "@/constants";
+import { PROJECTs, PROJECTS2 } from "@/constants";
 
 export const Projects = () => {
   return (
@@ -21,6 +21,7 @@ export const Projects = () => {
           />
         ))}
       </div>
+      <br></br>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {PROJECTS2.map((project) => (
           <ProjectCard
