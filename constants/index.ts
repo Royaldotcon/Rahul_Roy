@@ -181,8 +181,8 @@ export const OTHER_SKILL = [
   {
     skill_name: "Figma",
     image: "java.png",
-    width: 45,
-    height: 45,
+    width: 70,
+    height: 70,
   },
 ] as const;
 
