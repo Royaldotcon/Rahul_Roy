@@ -1,5 +1,5 @@
 import { ProjectCard } from "@/components/sub/project-card";
-import { PROJECTs, PROJECTS2 } from "@/constants";
+import { PROJECTS, PROJECTS2 } from "@/constants";
 
 export const Projects = () => {
   return (
