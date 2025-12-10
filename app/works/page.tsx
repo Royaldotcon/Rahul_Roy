@@ -2,7 +2,7 @@
 
 
 import { ProjectCard } from "@//components/sub/project-card";
-import { PROJECTS } from "@//constants";
+import { PROJECTS, PROJECTS2 } from "@//constants";
 import { motion } from "framer-motion";
 
 import {  slideInFromLeft,
@@ -29,6 +29,20 @@ const Projects = () => {
       variants={slideInFromLeft(0.8)}  
       className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {PROJECTS.map((project) => (
+          <ProjectCard
+            key={project.title}
+            src={project.image}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
+      </motion.div>
+      <br></br>
+      <motion.div
+      variants={slideInFromLeft(0.8)}  
+      className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        {PROJECTS2.map((project) => (
           <ProjectCard
             key={project.title}
             src={project.image}
