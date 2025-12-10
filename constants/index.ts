@@ -180,7 +180,7 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Figma",
-    image: "figma.png",
+    image: "java.png",
     width: 45,
     height: 45,
   },
@@ -188,6 +188,13 @@ export const OTHER_SKILL = [
 
 
 export const PROJECTS = [
+  {
+    title: "Ayaschya26 - Annual Technical Festival Website of GCETTS",
+    description:
+      'Ayaschya26 is a robust, performance-first digital experience crafted for students and gamers alike. Built with modern web primitives (HTML, CSS & JavaScript), the site is engineered for speed, accessibility and resilient delivery across devices — from low-end phones to desktop rigs. Its PWA-friendly, SEO-optimized, and designed for fast, snappy interactions during high-traffic event days.',
+    image: "/projects/project-6.png",
+    link: "https://ayaschya26.aitihya.co.in",
+  },
   {
     title: "Bazaar: E-Commerce Website",
     description:
