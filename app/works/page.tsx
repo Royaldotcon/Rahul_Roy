@@ -2,7 +2,7 @@
 
 
 import { ProjectCard } from "@//components/sub/project-card";
-import { PROJECTS, PROJECTS2, PROJECTS3 } from "@//constants";
+import { PROJECTS, PROJECTS2 } from "@//constants";
 import { motion } from "framer-motion";
 
 import {  slideInFromLeft,
@@ -52,19 +52,7 @@ const Projects = () => {
           />
         ))}
       </motion.div>
-      <motion.div
-      variants={slideInFromLeft(0.8)}  
-      className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        {PROJECTS3.map((project) => (
-          <ProjectCard
-            key={project.title}
-            src={project.image}
-            title={project.title}
-            description={project.description}
-            link={project.link}
-          />
-        ))}
-      </motion.div>
+      
       <motion.h1
       variants={slideInFromTop}  
       className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">

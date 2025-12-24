@@ -239,16 +239,17 @@ export const PROJECTS2 = [
     image: "/projects/project-4.png",
     link: "https://hathatcompany.wuaze.com",
   },
+  {
+    title: "Foodsplash - Food ordering website",
+    description:
+      'Foodsplash is a food ordering website made with love using HTML, CSS & JS  ',
+    image: "/projects/project-7.png",
+    link: "https://foodsplash.vercel.app",
+  },
 ] as const;
 export const PROJECTS3 = [
   
-  {
-    title: "Bazaar: E-Commerce Website",
-    description:
-      'A robust and modern eCommerce platform, created with love using Next.js 14. Bazaar is a full-stack eCommerce application engineered for performance, scalability, and seamless user experience. Designed to adapt from a startup storefront to enterprise-grade operations.',
-    image: "/projects/project-5.png",
-    link: "https://bazaar-bengal.vercel.app",
-  },
+  
  
 ] as const;
 
