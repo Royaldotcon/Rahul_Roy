@@ -243,7 +243,7 @@ export const PROJECTS2 = [
     title: "Foodsplash - Food ordering website",
     description:
       'Foodsplash is a food ordering website made with love using HTML, CSS & JS  ',
-    image: "/projects/project-7.png",
+    image: "/projects/project-7.jpeg",
     link: "https://foodsplash.vercel.app",
   },
 ] as const;
