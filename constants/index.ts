@@ -324,7 +324,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Projects",
-    link: "https://rahul-royal.vercel.app/works",
+    link: "/works",
   },
   {
     title: "Blogs",
@@ -332,7 +332,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Skills",
-    link: "https://rahul-royal.vercel.app/#skills",
+    link: "/#skills",
   },
   
   
