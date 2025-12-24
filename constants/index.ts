@@ -240,6 +240,17 @@ export const PROJECTS2 = [
     link: "https://hathatcompany.wuaze.com",
   },
 ] as const;
+export const PROJECTS3 = [
+  
+  {
+    title: "Bazaar: E-Commerce Website",
+    description:
+      'A robust and modern eCommerce platform, created with love using Next.js 14. Bazaar is a full-stack eCommerce application engineered for performance, scalability, and seamless user experience. Designed to adapt from a startup storefront to enterprise-grade operations.',
+    image: "/projects/project-5.png",
+    link: "https://bazaar-bengal.vercel.app",
+  },
+ 
+] as const;
 
 export const FOOTER_DATA = [
   {
