@@ -14,11 +14,13 @@ import {
    scales the whole triangle down on small screens
    via a CSS container that uses transform: scale()
 ───────────────────────────────────────────── */
+type Skill = { skill_name: string; image: string; width: number; height: number };
+
 function TriangleRow({
   skills,
   index,
 }: {
-  skills: typeof SKILL_DATA;
+  skills: readonly Skill[];
   index: number;
 }) {
   return (
