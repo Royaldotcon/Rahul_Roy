@@ -80,13 +80,13 @@ function ContactMethodCard({ method, index }: { method: typeof contactMethods[0]
       target={method.href.startsWith("http") ? "_blank" : undefined}
       rel="noreferrer noopener"
       onMouseMove={onMove}
-      onMouseLeave={onLeave}
-      style={{ x: sx, y: sy, textDecoration: "none" }}
+      
       initial={{ opacity: 0, x: -30 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5, delay: 0.2 + index * 0.1, ease: [0.16, 1, 0.3, 1] }}
       className="group flex items-center gap-4 p-4 rounded-xl transition-all duration-300"
       style={{
+         x: sx, y: sy, textDecoration: "none",
         background: "var(--bg-glass)",
         border: "1px solid var(--border-subtle)",
         backdropFilter: "blur(12px)",
@@ -98,11 +98,12 @@ function ContactMethodCard({ method, index }: { method: typeof contactMethods[0]
         el.style.background = `${method.accent}08`;
       }}
       onMouseLeave={(e) => {
+        onLeave();
         const el = e.currentTarget;
         el.style.borderColor = "var(--border-subtle)";
         el.style.boxShadow = "none";
         el.style.background = "var(--bg-glass)";
-      }}
+      } }
     >
       {/* Icon */}
       <div

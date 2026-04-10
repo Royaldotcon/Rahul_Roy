@@ -70,7 +70,8 @@ function DataStream() {
    ANIMATED LOCK
 ───────────────────────────────────────────── */
 function AnimatedLock() {
-  const ref    = useInView({ once: false });
+  const ref = useRef(null);
+const isInView = useInView(ref, { once: false });
   const isOpen = useRef(false);
 
   return (
