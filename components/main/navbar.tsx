@@ -271,7 +271,7 @@ export const Navbar = () => {
                     letterSpacing: "0.12em",
                   }}
                 >
-                  AVAILABLE FOR WORK
+                  HIRE ME
                 </span>
               </div>
               </a>
@@ -348,7 +348,7 @@ export const Navbar = () => {
                     letterSpacing: "0.12em",
                   }}
                 >
-                  AVAILABLE FOR WORK
+                  HIRE ME
                 </span>
               </div>
               </a>
