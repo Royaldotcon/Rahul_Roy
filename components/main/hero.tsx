@@ -16,7 +16,7 @@ export const Hero = () => {
   <source src="/videos/blackhole.mp4" type="video/mp4" />
 </video>
 
-      <HeroContent classname="relative z-20" />
+      <HeroContent />
     </div>
   );
 };

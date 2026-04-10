@@ -220,7 +220,7 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 pt-32 pb-20 w-full max-w-7xl mx-auto min-h-screen gap-12 z-20 relative"
+      className="flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 pt-32 pb-20 w-full max-w-7xl mx-auto min-h-screen gap-12 z-30 relative"
     >
       {/* ── LEFT COLUMN ── */}
       <div className="flex flex-col gap-6 w-full lg:max-w-[600px]">

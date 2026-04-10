@@ -140,7 +140,7 @@ export const Projects = () => {
       <SectionHeading />
 
       {/* First row */}
-      <ProjectGrid projects={PROJECTS} startIndex={0} />
+      <ProjectGrid projects={[...PROJECTS]} startIndex={0} />
 
       {/* Row divider */}
       <div className="flex items-center gap-4 w-full my-10">
@@ -160,7 +160,7 @@ export const Projects = () => {
       </div>
 
       {/* Second row */}
-      <ProjectGrid projects={PROJECTS2} startIndex={PROJECTS.length} />
+      <ProjectGrid projects={[...PROJECTS2]} startIndex={PROJECTS.length} />
 
       {/* View all CTA */}
       <motion.div
