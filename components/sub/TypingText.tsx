@@ -8,13 +8,26 @@ interface TypingTextProps {
   speed?: number;
   delay?: number;
   className?: string;
+  /** Neon color for the cursor. Defaults to var(--neon-cyan) */
+  accentColor?: string;
+  /** Show the `> ` prompt prefix */
+  showPrompt?: boolean;
 }
 
-const TypingText = ({ text, speed = 150, delay = 1000, className = "" }: TypingTextProps) => {
+const TypingText = ({
+  text,
+  speed = 150,
+  delay = 1000,
+  className = "",
+  accentColor,
+  showPrompt = false,
+}: TypingTextProps) => {
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [cursorVisible, setCursorVisible] = useState(true);
 
+  // Typing / deleting logic — unchanged from original
   useEffect(() => {
     const timeout = setTimeout(() => {
       if (!isDeleting && index < text.length) {
@@ -31,16 +44,51 @@ const TypingText = ({ text, speed = 150, delay = 1000, className = "" }: TypingT
     }, speed);
 
     return () => clearTimeout(timeout);
-  }, [index, isDeleting]);
+  }, [index, isDeleting, text, speed, delay]);
+
+  // Cursor blink — independent interval
+  useEffect(() => {
+    const id = setInterval(() => setCursorVisible((v) => !v), 530);
+    return () => clearInterval(id);
+  }, []);
+
+  const cursor = accentColor
+    ? `var(${accentColor})`
+    : "var(--neon-cyan)";
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className={`font-mono whitespace-pre text-left ${className}`}
+      transition={{ duration: 0.4 }}
+      className={`mono whitespace-pre text-left ${className}`}
+      style={{ display: "inline-flex", alignItems: "center", gap: "1px" }}
     >
-      {displayedText}
-      <span className="animate-pulse text-gray-600">|</span>
+      {/* Optional terminal prompt prefix */}
+      {showPrompt && (
+        <span style={{ color: cursor, opacity: 0.7, marginRight: "6px", userSelect: "none" }}>
+          &gt;
+        </span>
+      )}
+
+      {/* The typed text */}
+      <span style={{ color: "var(--text-primary)" }}>{displayedText}</span>
+
+      {/* Neon block cursor */}
+      <span
+        style={{
+          display: "inline-block",
+          width: "9px",
+          height: "1.1em",
+          background: cursor,
+          marginLeft: "2px",
+          borderRadius: "1px",
+          opacity: cursorVisible ? 1 : 0,
+          boxShadow: cursorVisible ? `0 0 8px ${cursor}` : "none",
+          transition: "opacity 0.08s ease, box-shadow 0.08s ease",
+          verticalAlign: "text-bottom",
+        }}
+      />
     </motion.div>
   );
 };

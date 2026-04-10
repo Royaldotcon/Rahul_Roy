@@ -89,6 +89,7 @@ export const Skills = () => {
             loop
             muted
             autoPlay
+            style={{ filter: "hue-rotate(20deg) saturate(1.4) brightness(0.5)" }}
           >
             <source src="/videos/skills-bg.webm" type="video/webm" />
           </video>

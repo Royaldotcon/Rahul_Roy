@@ -12,29 +12,114 @@ import {
 export const SkillText = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
+
+      {/* Badge pill */}
       <motion.div
         variants={slideInFromTop}
-        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "8px",
+          padding: "6px 16px",
+          borderRadius: "999px",
+          background: "var(--bg-glass)",
+          border: "1px solid var(--border-glow)",
+          backdropFilter: "blur(12px)",
+          marginBottom: "20px",
+          position: "relative",
+          overflow: "hidden",
+        }}
       >
-        <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-        <h1 className="Welcome-text text-[10px]">
-         Graphic Design and Robust web solutions with Next.js.
-        </h1>
+        {/* Shimmer sweep */}
+        <motion.span
+          animate={{ x: ["-100%", "200%"] }}
+          transition={{ duration: 2.4, repeat: Infinity, repeatDelay: 3, ease: "easeInOut" }}
+          style={{
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(90deg, transparent, rgba(0,245,255,0.12), transparent)",
+            pointerEvents: "none",
+          }}
+        />
+
+        <SparklesIcon style={{ width: "14px", height: "14px", color: "var(--neon-cyan)", flexShrink: 0 }} />
+
+        <span
+          className="mono"
+          style={{
+            fontSize: "11px",
+            letterSpacing: "0.08em",
+            color: "var(--text-secondary)",
+            textTransform: "uppercase",
+          }}
+        >
+          Graphic Design &amp; Robust Web Solutions with Next.js
+        </span>
       </motion.div>
 
-      <motion.div
+      {/* Primary heading */}
+      <motion.h2
         variants={slideInFromLeft(0.5)}
-        className="text-[20px] text-white font-medium mt-[10px] text-center mb-[15px]"
+        style={{
+          fontFamily: "var(--font-display)",
+          fontWeight: 800,
+          fontSize: "clamp(1.6rem, 3.5vw, 2.4rem)",
+          textAlign: "center",
+          lineHeight: 1.15,
+          marginBottom: "16px",
+          maxWidth: "640px",
+        }}
       >
-       Building innovative web and design solutions with cutting-edge technologies.
-      </motion.div>
+        <span className="gradient-text">Technologies</span>{" "}
+        <span style={{ color: "var(--text-primary)" }}>used</span>{" "}
+        
+      </motion.h2>
 
-      <motion.div
+      {/* Sub-line */}
+      <motion.p
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        style={{
+          fontFamily: "var(--font-mono)",
+          fontSize: "clamp(0.8rem, 1.5vw, 0.95rem)",
+          color: "var(--text-muted)",
+          textAlign: "center",
+          letterSpacing: "0.04em",
+          marginBottom: "48px",
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
+        }}
       >
+        {/* Blinking cursor dot */}
+        <motion.span
+          animate={{ opacity: [1, 0, 1] }}
+          transition={{ duration: 1, repeat: Infinity }}
+          style={{
+            display: "inline-block",
+            width: "6px",
+            height: "6px",
+            borderRadius: "50%",
+            background: "var(--neon-cyan)",
+            flexShrink: 0,
+            boxShadow: "0 0 6px var(--neon-cyan)",
+          }}
+        />
         Stay on top of every task, deadline, and idea.
-      </motion.div>
+        <motion.span
+          animate={{ opacity: [1, 0, 1] }}
+          transition={{ duration: 1, repeat: Infinity, delay: 0.5 }}
+          style={{
+            display: "inline-block",
+            width: "6px",
+            height: "6px",
+            borderRadius: "50%",
+            background: "var(--neon-cyan)",
+            flexShrink: 0,
+            boxShadow: "0 0 6px var(--neon-cyan)",
+          }}
+        />
+      </motion.p>
+
     </div>
   );
 };

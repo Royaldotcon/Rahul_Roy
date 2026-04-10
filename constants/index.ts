@@ -89,32 +89,32 @@ export const SOCIALS = [
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML",
+    skill_name: "Photoshop",
     image: "ps.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
+    skill_name: "Illustrator",
     image: "ai.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "JavaScript",
+    skill_name: "Premiere Pro",
     image: "pr.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Tailwind CSS",
+    skill_name: "Lightroom",
     image: "lr.png",
     width: 80,
     height: 80,
   },
   
   {
-    skill_name: "React",
+    skill_name: "Canva",
     image: "canva.svg",
     width: 80,
     height: 80,
@@ -123,7 +123,7 @@ export const FRONTEND_SKILL = [
   
   
   {
-    skill_name: "Next.js 14",
+    skill_name: "Adobe Express",
     image: "ae.png",
     width: 80,
     height: 80,
@@ -132,13 +132,13 @@ export const FRONTEND_SKILL = [
 
 export const BACKEND_SKILL = [
   {
-    skill_name: "Node.js",
+    skill_name: "VS Code",
     image: "vsc.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
+    skill_name: "Android Studio",
     image: "as.png",
     width: 80,
     height: 80,
@@ -162,24 +162,30 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   
-{
-    skill_name: "Figma",
+  {
+    skill_name: "Python",
     image: "py.png",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Figma",
-    image: "C.png",
+    image: "figma.png",
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "C",
+    image: "C.png",
+    width: 70,
+    height: 70,
+  }
   
 ] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Figma",
+    skill_name: "Java",
     image: "java.png",
     width: 100,
     height: 100,
@@ -209,7 +215,7 @@ export const PROJECTS = [
     description:
       'Welcome to my digital space — a thoughtfully crafted portfolio built with Next.js, blending performance, aesthetic design, and functionality. This site serves as a creative showcase of my work in UI/UX design, full-stack web development, and visual storytelling. From interactive components to seamless navigation, every detail reflects my passion for building intuitive and engaging digital experiences. Whether you are a potential client, collaborator, or just exploring, I invite you to discover my journey through pixels and code.',
     image: "/og.png",
-    link: "https://rahul-royal.vercel.app",
+    link: "https://old.rahulroy.in",
   },
   
 ] as const;
@@ -319,6 +325,10 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
+    title: "Home",
+    link: "/",
+  },
+  {
     title: "About",
     link: "/aboutme",
   },
@@ -335,9 +345,14 @@ export const NAV_LINKS = [
     link: "/#skills",
   },
   
+  {
+    title: "Contact",
+    link: "/contact",
+  },
+  
   
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://aitihya.co.in/rahul",
+  sourceCode: "https://www.rahulroy.in",
 };
