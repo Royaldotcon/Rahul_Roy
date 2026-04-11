@@ -119,48 +119,30 @@ function ProjectGrid({
 ───────────────────────────────────────────── */
 export const Projects = () => {
   const allProjects = [...PROJECTS, ...PROJECTS2];
+  const featured = allProjects.slice(0, 4); // first 4 only
 
   return (
     <section
       id="projects"
-      className="relative flex flex-col items-center justify-center py-24 px-6 md:px-10 max-w-7xl mx-auto"
+      className="relative flex flex-col items-center justify-center py-12 md:py-24 px-3 md:px-10 max-w-7xl mx-auto"
     >
-      {/* Background glow blob */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none -z-10"
-        style={{
-          width: "800px",
-          height: "600px",
-          background:
-            "radial-gradient(ellipse, rgba(191,95,255,0.05) 0%, transparent 70%)",
-          filter: "blur(40px)",
-        }}
-      />
-
       <SectionHeading />
 
-      {/* First row */}
-      <ProjectGrid projects={[...PROJECTS]} startIndex={0} />
-
-      {/* Row divider */}
-      <div className="flex items-center gap-4 w-full my-10">
-        <div className="flex-1 h-px" style={{ background: "var(--border-subtle)" }} />
-        <span
-          style={{
-            fontFamily: "var(--font-mono)",
-            fontSize: "10px",
-            color: "var(--text-muted)",
-            letterSpacing: "0.2em",
-            textTransform: "uppercase",
-          }}
-        >
-          More Works
-        </span>
-        <div className="flex-1 h-px" style={{ background: "var(--border-subtle)" }} />
+      <div className="grid grid-cols-2 lg:grid-cols-2 gap-3 md:gap-6 w-full max-w-4xl">
+        {featured.map((project, i) => (
+          <ProjectCard
+            key={project.title}
+            src={project.image}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+            index={i}
+          />
+        ))}
       </div>
 
-      {/* Second row */}
-      <ProjectGrid projects={[...PROJECTS2]} startIndex={PROJECTS.length} />
+      {/* View all CTA */}
+      
 
       {/* View all CTA */}
       <motion.div

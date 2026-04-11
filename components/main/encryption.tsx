@@ -152,7 +152,7 @@ function StatCounter({ value, label, suffix = "" }: { value: number; label: stri
     <div className="flex flex-col items-center gap-1">
       <span
         ref={ref}
-        className="text-3xl font-bold"
+        className="text-2xl font-bold"
         style={{
           fontFamily: "var(--font-display)",
           color: "var(--neon-cyan)",
@@ -164,7 +164,7 @@ function StatCounter({ value, label, suffix = "" }: { value: number; label: stri
       <span
         style={{
           fontFamily: "var(--font-mono)",
-          fontSize: "9px",
+          fontSize: "7px",
           letterSpacing: "0.15em",
           color: "var(--text-muted)",
           textTransform: "uppercase",
@@ -184,11 +184,11 @@ export const Encryption = () => {
     <section className="relative flex flex-col items-center justify-center min-h-screen w-full overflow-hidden py-20">
 
       {/* ── BACKGROUND VIDEO (retained) ── */}
-      <div className="absolute inset-0 w-full h-full z-20">
+      <div className="absolute inset-0 w-full h-full z-10">
         <video
           loop muted autoPlay playsInline preload="none"
           className="w-full h-full object-cover opacity-20"
-          style={{ filter: "hue-rotate(200deg) saturate(1.2)" }}
+          style={{ filter: "saturate(0)", opacity: 0.1}}
         >
           <source src="/videos/encryption-bg.webm" type="video/webm" />
         </video>
@@ -234,7 +234,7 @@ export const Encryption = () => {
         </h2>
 
         <p
-          className="max-w-[440px] text-center text-sm"
+          className="max-w-[400px] px-20 text-center text-sm"
           style={{ color: "var(--text-muted)", lineHeight: "1.7", fontFamily: "var(--font-body)" }}
         >
           Every app I build is engineered for speed, resilience, and end-to-end security.
@@ -276,7 +276,7 @@ export const Encryption = () => {
           />
           <span
             className="Welcome-text"
-            style={{ fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.2em" }}
+            style={{ fontFamily: "var(--font-mono)", fontSize: "8px", letterSpacing: "0.2em" }}
           >
             ENCRYPTION ACTIVE
           </span>
@@ -313,7 +313,7 @@ export const Encryption = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.3 }}
-        className="flex items-center gap-10 flex-wrap justify-center z-10 mb-12"
+        className="flex items-center gap-10 flex-wrap justify-center z-30 mb-12"
       >
         {[
           { value: 100, label: "Secure by default", suffix: "%" },
@@ -330,7 +330,7 @@ export const Encryption = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, delay: 0.4 }}
-        className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl w-full px-6 z-10"
+        className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl w-full px-8 z-10"
       >
         {[
           { icon: "🔐", title: "End-to-End Encryption",  desc: "All data is encrypted in transit and at rest."         },

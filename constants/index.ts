@@ -206,7 +206,7 @@ export const PROJECTS = [
     title: "Aitihya: E-Commerce Website",
     description:
       'Aitihya is my entrepreneurial venture — a cultural e-commerce platform designed to showcase Bengal’s heritage by empowering local artisans and selling their handcrafted products globally.',
-    image: "/projects/project-1.png",
+    image: "https://ik.imagekit.io/oeabsn1eha/seller-photos/image3.png",
     link: "https://www.aitihya.co.in",
   },
  
@@ -214,7 +214,7 @@ export const PROJECTS = [
     title: "Next.js Portfolio Website",
     description:
       'Welcome to my digital space — a thoughtfully crafted portfolio built with Next.js, blending performance, aesthetic design, and functionality. This site serves as a creative showcase of my work in UI/UX design, full-stack web development, and visual storytelling. From interactive components to seamless navigation, every detail reflects my passion for building intuitive and engaging digital experiences. Whether you are a potential client, collaborator, or just exploring, I invite you to discover my journey through pixels and code.',
-    image: "/og.png",
+    image: "https://old.rahulroy.in/og.png",
     link: "https://old.rahulroy.in",
   },
   
@@ -238,13 +238,7 @@ export const PROJECTS2 = [
     link: "https://texavision.in",
   },
   
-  {
-    title: "HatHat Company",
-    description:
-      'HathatCompany is my debut website, built entirely with HTML and CSS—without the use of any upper-level programming languages. It reflects a clean, purposeful design rooted in core web development principles.',
-    image: "/projects/project-4.png",
-    link: "https://hathatcompany.wuaze.com",
-  },
+  
   {
     title: "Foodsplash - Food ordering website",
     description:

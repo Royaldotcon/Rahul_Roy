@@ -53,7 +53,7 @@ export const SkillText = () => {
             textTransform: "uppercase",
           }}
         >
-          Graphic Design &amp; Robust Web Solutions with Next.js
+          Graphic Design &amp; Web Solutions
         </span>
       </motion.div>
 

@@ -4,6 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── GLOBAL SCALE DOWN FOR MOBILE ── */
+html {
+  font-size: 13px; /* was 16px — scales everything rem-based down */
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 /* ============================================================
    CSS CUSTOM PROPERTIES — CYBERPUNK THEME SYSTEM
    ============================================================ */

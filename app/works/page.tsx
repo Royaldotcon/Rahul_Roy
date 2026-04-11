@@ -13,12 +13,7 @@ const GRAPHICS_PORTRAIT = [
   { src: "graphics/texa1.png",         alt: "Texavision 01" },
   { src: "graphics/innova.png",        alt: "Innova" },
   { src: "/graphics/unscripted.png",   alt: "Unscripted" },
-  { src: "https://www.texavision.in/_next/image?url=%2Fdj.png&w=1080&q=75",       alt: "DJ Night" },
-  { src: "https://www.texavision.in/_next/image?url=%2Fbohur.png&w=1080&q=75",    alt: "Bohur" },
-  { src: "https://www.texavision.in/_next/image?url=%2Freunion.png&w=1080&q=75",  alt: "Reunion" },
-  { src: "https://www.texavision.in/_next/image?url=%2FTEXAWALK.png&w=1080&q=75", alt: "Texawalk" },
-  { src: "https://www.texavision.in/_next/image?url=%2Ffresh.png&w=1080&q=75",    alt: "Fresh" },
-  { src: "https://www.texavision.in/_next/image?url=%2Ffarewell.png&w=1080&q=75", alt: "Farewell" },
+  
 ];
 
 const GRAPHICS_LANDSCAPE = [

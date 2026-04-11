@@ -232,16 +232,16 @@ export const HeroContent = () => {
             style={{ color: "var(--neon-cyan)", filter: "drop-shadow(0 0 6px var(--neon-cyan))" }}
           />
           <span
-            className="text-[12px] tracking-widest uppercase"
+            className="text-[10px] tracking-widest uppercase"
             style={{ fontFamily: "var(--font-mono)", color: "var(--text-secondary)" }}
           >
             Portfolio&nbsp;
           </span>
           <span
-            className="text-[12px] tracking-widest uppercase"
+            className="text-[10px] tracking-widest uppercase"
             style={{ fontFamily: "var(--font-mono)", color: "var(--neon-cyan)", textShadow: "0 0 8px var(--neon-cyan)" }}
           >
-            2025
+            2026
           </span>
         </motion.div>
 
@@ -260,7 +260,7 @@ export const HeroContent = () => {
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 800,
-              fontSize: "clamp(3rem, 8vw, 6rem)",
+              fontSize: "clamp(4rem, 8vw, 6rem)",
               letterSpacing: "-0.02em",
             }}
           >
@@ -272,7 +272,7 @@ export const HeroContent = () => {
             src="/hero-title.gif"
             alt="Web Developer & Graphic Designer"
             className="h-auto mt-1"
-            style={{ width: "min(480px, 100%)", marginLeft: "-4px" }}
+            style={{ width: "min(350px, 80%)", marginLeft: "-4px" }}
             draggable={false}
           />
         </motion.div>
