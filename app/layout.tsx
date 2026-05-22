@@ -8,6 +8,9 @@ const siteUrl = "https://www.rahulroy.in";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: {
+  canonical: siteUrl,
+},
 
   title: {
     default: "Rahul Roy | Full Stack Developer & UI/UX Designer",
